@@ -1,22 +1,24 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mind Candy Events on github.com</title>
-    <!-- Bootstrap -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-  </head>
-  
-  <body>
-    <div class="container">
+<head>
+  <title>Mind Candy Events on github.com</title>
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-      <div class="jumbotron">
-        <h1>mindcandy-events.github.com</h1>
-        <p class="lead">Hacking a jam or jamming a hack? Get your starter resources here!</p>
-      </div>
+<body>
+<div class="jumbotron">
+  <div class="container">
+  <h1>mindcandy-events.github.com</h1>
+  <p class="lead">Hacking a jam or jamming a hack? Get your starter resources here!</p>
+  </div>
+</div> <!-- jumbotron -->
 
+<div class="container">
   <div>
     <h2>Intro</h2>
     <p>This github organisation is for storing useful starter projects (and completed games) for Game Jams run by <a href="http://mindcandy.com/">Mind Candy</a> -- but you are free to use them as well!</p>
@@ -33,11 +35,51 @@
   <div>
     <h2>Starter Projects</h2>
     <p>The best way to get started is to take an existing 'game' and then hack on top of it! So here are some starter projects:</p>
-    <ul>  
-      <li><a href="https://github.com/mindcandy-events/crafty-starter-game-platform">Shooter game</a> - <a href="http://mindcandy-events.github.com/crafty-starter-game-platform/">play here</a></li>
-      <li><a href="https://github.com/mindcandy-events/crafty-starter-game-shooter">Platform game</a> - <a href="http://mindcandy-events.github.com/crafty-starter-game-shooter/">play here</a></li>
-      <li><a href="https://github.com/mindcandy-events/crafty-starter-game-rpg">Role Playing game</a> - <a href="http://mindcandy-events.github.com/crafty-starter-game-rpg/">play here</a></li>
-      <li><a href="https://github.com/mindcandy-events/crafty-starter-game-onebutton">One-button game</a> - <a href="http://mindcandy-events.github.com/crafty-starter-game-onebutton/">play here</a></li>
+    <ul class="media-list">
+      <li class="media">
+      <a class="pull-left" href="http://mindcandy-events.github.com/crafty-starter-game-shooter/">
+        <img src="img/thumb-shooter.png" width="96" height="96" class="img-polaroid media-object">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Shooter game</h4>
+        <p>A tiny 2d shooting game with respawning (but very stupid enemies). Basic sprite animation, four-way control and collision detection is shown.</p>
+        <p><a href="https://github.com/mindcandy-events/crafty-starter-game-shooter" class="btn"><i class="icon-list-alt"></i> source code on github</a> <a href="http://mindcandy-events.github.com/crafty-starter-game-shooter/" class="btn"><i class="icon-play"></i> play here</a></p>
+      </div>
+      </li>
+
+      <li class="media">
+      <a class="pull-left" href="http://mindcandy-events.github.com/crafty-starter-game-platform/">
+        <img src="img/thumb-platform.png" width="96" height="96" class="img-polaroid media-object">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Platform game</h4>
+        <p>A very basic 2d platform game - use as a basis for Mario clones!</p>
+        <p><a href="https://github.com/mindcandy-events/crafty-starter-game-platform" class="btn"><i class="icon-list-alt"></i> source code on github</a> <a href="http://mindcandy-events.github.com/crafty-starter-game-platform/" class="btn"><i class="icon-play"></i> play here</a></p>
+      </div>
+      </li>
+
+      <li class="media">
+      <a class="pull-left" href="http://mindcandy-events.github.com/crafty-starter-game-rpg/">
+        <img src="img/thumb-rpg.png" width="96" height="96" class="img-polaroid media-object">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">Role Playing game</h4>
+        <p>A 2d 'role playing game' with some simple AI, animated sprites and separate sprites for player/enemies and weapons. Uses art from <a href="https://github.com/mozilla/BrowserQuest">BrowserQuest</a> by Mozilla.</p>
+        <p><a href="https://github.com/mindcandy-events/crafty-starter-game-rpg" class="btn"><i class="icon-list-alt"></i> source code on github</a> <a href="http://mindcandy-events.github.com/crafty-starter-game-rpg/" class="btn"><i class="icon-play"></i> play here</a></p>
+      </div>
+      </li>
+
+      <li class="media">
+      <a class="pull-left" href="http://mindcandy-events.github.com/crafty-starter-game-onebutton/">
+        <img src="img/thumb-onebutton.png" width="96" height="96" class="img-polaroid media-object">
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading">One Button game</h4>
+        <p>Can you build a game with only one button? Many mobile games are essentially 'one button' games. This is a very siple game, press Space to keep the unhappy square alive!</p>
+        <p><a href="https://github.com/mindcandy-events/crafty-starter-game-onebutton" class="btn"><i class="icon-list-alt"></i> source code on github</a> <a href="http://mindcandy-events.github.com/crafty-starter-game-onebutton/" class="btn"><i class="icon-play"></i> play here</a></p>
+      </div>
+      </li>
+
     </ul>
   </div>
 
@@ -46,29 +88,30 @@
     <p>Get inspired and check out of the code from previous game jams!</p>
     <h4>Animated Exter 2013 Game Jam</h4>
     <ul>
-      <li><a href="https://github.com/mindcandy-events/crazy-mushroom-shack">Crazy Mushroom Shack</a></li>
-      <li><a href="https://github.com/mindcandy-events/telekinetic-ostrich-voyage">Telekinetic Ostrich Voyage</a></li>
+      <li><a href="https://github.com/mindcandy-events/crazy-mushroom-shack">Crazy Mushroom Shack</a> - <a href="http://mindcandy-events.github.com/crazy-mushroom-shack/">play here</a></li>
+      <li><a href="https://github.com/mindcandy-events/telekinetic-ostrich-voyage">Telekinetic Ostrich Voyage</a> - <a href="http://mindcandy-events.github.com/telekinetic-ostrich-voyage/">play here</a></li>
     </ul>
     <h4>Mozilla Festival 2012 "Mash Up with Mind Candy"</h4>
+    <p>More info on the Mozilla Festival <a href="http://mindcandy.com/2012/11/mozilla-festival-mind-candy-game-jam/">here</a></p>
     <ul>
-      <li><a href="https://github.com/worzy/Soviet-Flatulence-Roundup">Soviet Flatulence Roundup</a></li>
+      <li><a href="https://github.com/worzy/Soviet-Flatulence-Roundup">Soviet Flatulence Roundup</a> - <a href="http://www.monkeyonfire.net/roundup/">play here</a></li>
       <li><a href="https://github.com/sara89sgm/AngryZamboniOperatives">Angry Zamboni Operatives</a></li>
-      <li><a href="https://github.com/stugoo/unicorn-super-blaster">Unicorn Super Blaster</a></li>
+      <li><a href="https://github.com/stugoo/unicorn-super-blaster">Unicorn Super Blaster</a> - <a href="http://stugoo.co.uk/unicornsuperblaster/">play here</a></li>
       <li><a href="https://github.com/darkyndy/Lethal-Spatula-Heroes">Lethal Spatula Heroes</a></li>
     </ul>
   </div>
 
   <hr/>
 
-     <div class="footer">
-        <p><a href="https://github.com/mindcandy-events">View the mindcandy-events organisation on GitHub</a></p>
-      </div>
+   <div class="footer">
+      <p><a href="https://github.com/mindcandy-events">View the mindcandy-events organisation on GitHub</a></p>
+    </div>
 
-  </div><!-- container -->
+</div><!-- container -->
 
-  <script src="http://code.jquery.com/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  </body>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
 
 
